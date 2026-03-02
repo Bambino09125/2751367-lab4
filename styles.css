@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+.search-container {
+    margin-bottom: 20px;
+}
+
+/* ========================= */
+/* Spinner (REQUIRED) */
+/* ========================= */
+.spinner {
+    width: 40px;
+    height: 40px;
+    border: 5px solid #ddd;
+    border-top: 5px solid #3498db;
+    border-radius: 50%;
+    margin: 20px auto;
+    animation: spin 1s linear infinite; /* REQUIRED */
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* ========================= */
+/* Country Card (REQUIRED) */
+/* ========================= */
+.country-card {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* ========================= */
+/* Border Grid (REQUIRED) */
+/* ========================= */
+.border-grid {
+    display: grid; /* REQUIRED */
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 10px;
+    margin-top: 10px;
+}
+
+/* ========================= */
+/* Error Styling (REQUIRED) */
+/* ========================= */
+.error {
+    color: #b00020;
+    background-color: #ffe6e6;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+/* ========================= */
+/* Hidden Class (REQUIRED) */
+/* ========================= */
+.hidden {
+    display: none;
+}
